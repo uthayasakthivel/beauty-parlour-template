@@ -1,0 +1,30 @@
+/* ============================================================
+   FONTS — Change Google Fonts import URL here to swap fonts.
+   Also update the font-family values below.
+
+   Current:
+     Heading → Cormorant Garamond (serif, elegant)
+     Body    → Poppins (sans-serif, clean)
+
+   To change fonts:
+   1. Go to fonts.google.com, pick two fonts
+   2. Replace the @import URL below
+   3. Update font-family values in body and .heading-font
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+/* ── BODY FONT ────────────────────────────────────────────── */
+body {
+  font-family: "Poppins", sans-serif; /* ← Change body font here */
+  background: #fffdfb;
+  color: #1a1a1a;
+}
+
+/* ── HEADING FONT ─────────────────────────────────────────── */
+/* Used via className="heading-font" throughout components */
+.heading-font {
+  font-family: "Cormorant Garamond", serif; /* ← Change heading font here */
+}
