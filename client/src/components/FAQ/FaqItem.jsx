@@ -3,7 +3,7 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 
 export default function FaqItem({ faq, isOpen, onClick }) {
   return (
-    <div className="rounded-2xl border border-teal-100 bg-white shadow-sm">
+    <div className="rounded-2xl border border-pink-100 bg-white shadow-sm">
       <button
         onClick={onClick}
         className="flex w-full items-center justify-between p-6 text-left"
@@ -11,9 +11,9 @@ export default function FaqItem({ faq, isOpen, onClick }) {
         <h3 className="text-lg font-semibold">{faq.question}</h3>
 
         {isOpen ? (
-          <FiMinus className="text-teal-600 text-xl" />
+          <FiMinus className="text-pink-600 text-xl" />
         ) : (
-          <FiPlus className="text-teal-600 text-xl" />
+          <FiPlus className="text-pink-600 text-xl" />
         )}
       </button>
 

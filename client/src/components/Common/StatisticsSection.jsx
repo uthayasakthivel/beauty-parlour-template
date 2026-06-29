@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function StatisticsSection() {
   return (
-    <section className="bg-linear-to-r from-teal-600 to-rose-500 py-24">
+    <section className="bg-linear-to-r from-pink-600 to-rose-500 py-24">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-2 lg:grid-cols-4">
         {statistics.map((item) => {
           const Icon = item.icon;
@@ -21,7 +21,7 @@ export default function StatisticsSection() {
                 <StatsCounter end={item.value} suffix={item.suffix} />
               </h2>
 
-              <p className="mt-4 text-lg text-teal-100">{item.label}</p>
+              <p className="mt-4 text-lg text-pink-100">{item.label}</p>
             </motion.div>
           );
         })}

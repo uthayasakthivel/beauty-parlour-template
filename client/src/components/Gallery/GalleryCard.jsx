@@ -20,7 +20,7 @@ export default function GalleryCard({ item }) {
 
           <h3 className="heading-font text-3xl text-white">{item.title}</h3>
 
-          <p className="mt-2 text-teal-300">{item.category}</p>
+          <p className="mt-2 text-pink-300">{item.category}</p>
         </div>
       </div>
     </motion.div>

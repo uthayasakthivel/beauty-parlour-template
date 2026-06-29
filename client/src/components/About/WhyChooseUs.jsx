@@ -13,7 +13,7 @@ import { fadeUp } from "../../config/animations/variants";
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-teal-50 py-28">
+    <section className="bg-pink-50 py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-20 px-6 lg:grid-cols-2">
         {/* Left Image — replace why-choose-us.jpg */}
         <motion.div
@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
           />
 
           <div className="absolute -bottom-8 -right-8 rounded-3xl bg-white p-8 shadow-xl">
-            <h2 className="text-5xl font-bold text-teal-600">10+</h2>
+            <h2 className="text-5xl font-bold text-pink-600">10+</h2>
             <p className="mt-2 text-gray-600">Years Experience</p>
           </div>
         </motion.div>
@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
                   whileHover={{ x: 10 }}
                   className="flex gap-5 rounded-2xl bg-white p-6 shadow-md"
                 >
-                  <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-teal-100 text-3xl text-teal-600">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-pink-100 text-3xl text-pink-600">
                     <Icon />
                   </div>
 
@@ -75,19 +75,19 @@ export default function WhyChooseUs() {
           {/* ── Inline mini-stats — edit the 3 values below ── */}
           <div className="mt-12 grid grid-cols-3 gap-6">
             <div>
-              <h2 className="text-4xl font-bold text-teal-600">1000+</h2>{" "}
+              <h2 className="text-4xl font-bold text-pink-600">1000+</h2>{" "}
               {/* ← edit */}
               <p className="text-gray-600 mt-2">Happy Clients</p> {/* ← edit */}
             </div>
 
             <div>
-              <h2 className="text-4xl font-bold text-teal-600">20+</h2>{" "}
+              <h2 className="text-4xl font-bold text-pink-600">20+</h2>{" "}
               {/* ← edit */}
               <p className="text-gray-600 mt-2">Services</p> {/* ← edit */}
             </div>
 
             <div>
-              <h2 className="text-4xl font-bold text-teal-600">4.9★</h2>{" "}
+              <h2 className="text-4xl font-bold text-pink-600">4.9★</h2>{" "}
               {/* ← edit */}
               <p className="text-gray-600 mt-2">Client Rating</p> {/* ← edit */}
             </div>

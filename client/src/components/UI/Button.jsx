@@ -16,14 +16,14 @@ export default function Button({
         items-center
         justify-center
         rounded-full
-        bg-teal-600
+        bg-pink-600
         px-8
         py-4
         font-semibold
         text-white
         transition-all
         duration-300
-        hover:bg-teal-700
+        hover:bg-pink-700
         ${className}
       `}
       {...props}

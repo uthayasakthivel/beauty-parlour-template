@@ -19,7 +19,7 @@ export default function InstagramSection() {
     <section className="bg-[#FFF5F8] py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 text-center">
-          <p className="uppercase tracking-[6px] text-teal-600 font-semibold">
+          <p className="uppercase tracking-[6px] text-pink-600 font-semibold">
             Instagram
           </p>
 
@@ -60,7 +60,7 @@ export default function InstagramSection() {
             href={site.social.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 rounded-full bg-teal-600 px-8 py-4 text-white transition hover:bg-teal-700"
+            className="inline-flex items-center gap-3 rounded-full bg-pink-600 px-8 py-4 text-white transition hover:bg-pink-700"
           >
             <FaInstagram />
             Follow on Instagram

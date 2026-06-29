@@ -14,7 +14,7 @@ export default function AppointmentCTA() {
       <div className="absolute inset-0 bg-black/60" />
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center text-white">
-        <p className="mb-4 uppercase tracking-[6px] text-teal-300">
+        <p className="mb-4 uppercase tracking-[6px] text-pink-300">
           Book Appointment
         </p>
 

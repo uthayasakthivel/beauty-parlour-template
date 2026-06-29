@@ -3,7 +3,7 @@ import { FaQuoteLeft, FaStar } from "react-icons/fa";
 export default function TestimonialCard({ testimonial }) {
   return (
     <div className="rounded-3xl bg-white/90 p-8 shadow-xl backdrop-blur-md">
-      <FaQuoteLeft className="mb-6 text-4xl text-teal-500" />
+      <FaQuoteLeft className="mb-6 text-4xl text-pink-500" />
 
       <p className="mb-8 leading-8 text-gray-600">"{testimonial.review}"</p>
 
@@ -23,7 +23,7 @@ export default function TestimonialCard({ testimonial }) {
         <div>
           <h4 className="font-semibold text-lg">{testimonial.name}</h4>
 
-          <p className="text-sm text-teal-600">{testimonial.role}</p>
+          <p className="text-sm text-pink-600">{testimonial.role}</p>
         </div>
       </div>
     </div>

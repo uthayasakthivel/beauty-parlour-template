@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto h-20 px-6 flex items-center justify-between">
         <NavLink to="/">
           <h1 className="text-3xl font-bold tracking-wide">
-            <span className="text-teal-600">{site.brand.first}</span>
+            <span className="text-pink-600">{site.brand.first}</span>
             <span className="text-gray-900">{site.brand.second}</span>
           </h1>
         </NavLink>
@@ -46,8 +46,8 @@ export default function Navbar() {
               className={({ isActive }) =>
                 `font-medium transition ${
                   isActive
-                    ? "text-teal-600"
-                    : "text-gray-700 hover:text-teal-600"
+                    ? "text-pink-600"
+                    : "text-gray-700 hover:text-pink-600"
                 }`
               }
             >
@@ -57,7 +57,7 @@ export default function Navbar() {
 
           <NavLink
             to="/appointment"
-            className="bg-teal-600 text-white px-5 py-3 rounded-full hover:bg-teal-700 transition"
+            className="bg-pink-600 text-white px-5 py-3 rounded-full hover:bg-pink-700 transition"
           >
             Book Now
           </NavLink>
@@ -94,7 +94,7 @@ export default function Navbar() {
               <NavLink
                 to="/appointment"
                 onClick={() => setMenuOpen(false)}
-                className="mt-4 bg-teal-600 text-white rounded-lg py-3 text-center"
+                className="mt-4 bg-pink-600 text-white rounded-lg py-3 text-center"
               >
                 Book Appointment
               </NavLink>

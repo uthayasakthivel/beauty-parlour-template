@@ -39,8 +39,8 @@ export default function GallerySection() {
               onClick={() => setSelected(category)}
               className={`px-6 py-3 rounded-full font-medium transition ${
                 selected === category
-                  ? "bg-teal-600 text-white"
-                  : "bg-teal-100 hover:bg-teal-600 hover:text-white"
+                  ? "bg-pink-600 text-white"
+                  : "bg-pink-100 hover:bg-pink-600 hover:text-white"
               }`}
             >
               {category}

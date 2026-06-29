@@ -26,12 +26,12 @@ export default function TeamSection() {
                   className="h-[420px] w-full object-cover duration-500 group-hover:scale-110"
                 />
 
-                <div className="absolute inset-0 flex items-center justify-center gap-4 bg-teal-600/70 opacity-0 transition duration-500 group-hover:opacity-100">
-                  <button className="rounded-full bg-white p-4 text-teal-600">
+                <div className="absolute inset-0 flex items-center justify-center gap-4 bg-pink-600/70 opacity-0 transition duration-500 group-hover:opacity-100">
+                  <button className="rounded-full bg-white p-4 text-pink-600">
                     <FaInstagram />
                   </button>
 
-                  <button className="rounded-full bg-white p-4 text-teal-600">
+                  <button className="rounded-full bg-white p-4 text-pink-600">
                     <FaFacebookF />
                   </button>
                 </div>
@@ -40,7 +40,7 @@ export default function TeamSection() {
               <div className="p-6 text-center">
                 <h3 className="heading-font text-3xl">{member.name}</h3>
 
-                <p className="mt-2 text-teal-600">{member.role}</p>
+                <p className="mt-2 text-pink-600">{member.role}</p>
               </div>
             </motion.div>
           ))}

@@ -25,9 +25,9 @@ export default function ServicesGrid() {
                 transition={{
                   duration: 0.3,
                 }}
-                className="group rounded-3xl border border-teal-100 bg-white p-8 shadow-sm transition hover:shadow-2xl"
+                className="group rounded-3xl border border-pink-100 bg-white p-8 shadow-sm transition hover:shadow-2xl"
               >
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-teal-100 text-3xl text-teal-600 transition group-hover:bg-teal-600 group-hover:text-white">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-pink-100 text-3xl text-pink-600 transition group-hover:bg-pink-600 group-hover:text-white">
                   <Icon />
                 </div>
 
@@ -37,7 +37,7 @@ export default function ServicesGrid() {
 
                 <p className="leading-8 text-gray-600">{service.description}</p>
 
-                <button className="mt-8 font-semibold text-teal-600 transition hover:translate-x-2">
+                <button className="mt-8 font-semibold text-pink-600 transition hover:translate-x-2">
                   Learn More →
                 </button>
               </motion.div>

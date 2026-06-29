@@ -6,9 +6,9 @@
 const theme = {
   // ── BRAND COLORS ──────────────────────────────────────────
   // Primary is the main action color (buttons, accents, links)
-  // Change "teal" to any Tailwind color: rose, violet, amber, teal, sky …
+  // Change "pink" to any Tailwind color: rose, violet, amber, pink, sky …
   colors: {
-    primary: "teal", // e.g. "rose" | "violet" | "amber" | "teal"
+    primary: "pink", // e.g. "rose" | "violet" | "amber" | "pink"
     primaryShade: "600", // Tailwind shade: 400 | 500 | 600 | 700 | 800
     primaryLight: "50", // Light bg shade for cards/sections: 50 | 100
     primaryMid: "100", // Mid shade for icon backgrounds
@@ -18,7 +18,7 @@ const theme = {
     overlayOpacity: "55", // 40 | 50 | 55 | 60 | 70
 
     // Navbar background (scrolled state)
-    navBg: "white", // "white" | "gray-950" | "teal-950" etc.
+    navBg: "white", // "white" | "gray-950" | "pink-950" etc.
     navText: "gray-700", // link color in nav
 
     // Footer background
@@ -28,7 +28,7 @@ const theme = {
     // Section alternating backgrounds
     sectionLight: "white",
     sectionAccent: "#FFF5F8", // Very light tinted background
-    sectionAlt: "teal-50",
+    sectionAlt: "pink-50",
   },
 
   // ── TYPOGRAPHY ────────────────────────────────────────────

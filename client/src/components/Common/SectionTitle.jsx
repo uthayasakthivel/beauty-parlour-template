@@ -19,7 +19,7 @@ export default function SectionTitle({ subtitle, title, description }) {
       }}
       className="text-center max-w-3xl mx-auto mb-20"
     >
-      <p className="uppercase tracking-[8px] text-teal-600 font-semibold">
+      <p className="uppercase tracking-[8px] text-pink-600 font-semibold">
         {subtitle}
       </p>
 

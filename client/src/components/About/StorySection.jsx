@@ -30,7 +30,7 @@ export default function StorySection() {
 
         {/* Content */}
         <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[4px] text-teal-600">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[4px] text-pink-600">
             Our Story
           </p>
 
@@ -49,7 +49,7 @@ export default function StorySection() {
           <div className="space-y-4">
             {features.map((feature) => (
               <div key={feature} className="flex items-center gap-3">
-                <FaCheckCircle className="text-xl text-teal-600" />
+                <FaCheckCircle className="text-xl text-pink-600" />
                 <span className="text-lg text-gray-700">{feature}</span>
               </div>
             ))}
@@ -57,15 +57,15 @@ export default function StorySection() {
 
           {/* ── Mini-stats — edit values ── */}
           <div className="mt-10 grid grid-cols-2 gap-6">
-            <div className="rounded-2xl bg-teal-50 p-6 text-center">
-              <h3 className="text-4xl font-bold text-teal-600">5+</h3>{" "}
+            <div className="rounded-2xl bg-pink-50 p-6 text-center">
+              <h3 className="text-4xl font-bold text-pink-600">5+</h3>{" "}
               {/* ← edit */}
               <p className="mt-2 text-gray-600">Years Experience</p>{" "}
               {/* ← edit */}
             </div>
 
-            <div className="rounded-2xl bg-teal-50 p-6 text-center">
-              <h3 className="text-4xl font-bold text-teal-600">500+</h3>{" "}
+            <div className="rounded-2xl bg-pink-50 p-6 text-center">
+              <h3 className="text-4xl font-bold text-pink-600">500+</h3>{" "}
               {/* ← edit */}
               <p className="mt-2 text-gray-600">Happy Clients</p> {/* ← edit */}
             </div>

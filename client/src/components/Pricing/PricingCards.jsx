@@ -25,8 +25,8 @@ export default function PricingCards() {
               }}
               className={`relative overflow-hidden rounded-[30px] border p-10 shadow-lg transition ${
                 plan.popular
-                  ? "border-teal-600 bg-gradient-to-b from-teal-600 to-teal-500 text-white"
-                  : "border-teal-100 bg-white"
+                  ? "border-pink-600 bg-gradient-to-b from-pink-600 to-pink-500 text-white"
+                  : "border-pink-100 bg-white"
               }`}
             >
               {plan.popular && (
@@ -48,7 +48,7 @@ export default function PricingCards() {
                   <div key={item} className="flex items-center gap-3">
                     <plan.icon
                       className={`${
-                        plan.popular ? "text-white" : "text-teal-600"
+                        plan.popular ? "text-white" : "text-pink-600"
                       }`}
                     />
 
@@ -60,8 +60,8 @@ export default function PricingCards() {
               <button
                 className={`mt-10 w-full rounded-full py-4 text-lg font-semibold transition ${
                   plan.popular
-                    ? "bg-white text-teal-600 hover:bg-teal-100"
-                    : "bg-teal-600 text-white hover:bg-teal-700"
+                    ? "bg-white text-pink-600 hover:bg-pink-100"
+                    : "bg-pink-600 text-white hover:bg-pink-700"
                 }`}
               >
                 Book Package

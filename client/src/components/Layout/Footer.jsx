@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h2 className="mb-5 text-3xl font-bold">
-              <span className="text-teal-500">{site.brand.first}</span>
+              <span className="text-pink-500">{site.brand.first}</span>
               <span className="text-white">{site.brand.second}</span>
             </h2>
 
@@ -61,17 +61,17 @@ export default function Footer() {
 
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <FaPhoneAlt className="text-teal-500" />
+                <FaPhoneAlt className="text-pink-500" />
                 <span>{site.phone}</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <FaEnvelope className="text-teal-500" />
+                <FaEnvelope className="text-pink-500" />
                 <span>{site.email}</span>
               </div>
 
               <div className="flex items-start gap-3">
-                <FaMapMarkerAlt className="mt-1 text-teal-500" />
+                <FaMapMarkerAlt className="mt-1 text-pink-500" />
                 <span>{site.address}</span>
               </div>
             </div>
@@ -84,21 +84,21 @@ export default function Footer() {
             <div className="flex gap-4">
               <a
                 href={site.social.facebook}
-                className="rounded-full bg-teal-600 p-3 transition hover:scale-110"
+                className="rounded-full bg-pink-600 p-3 transition hover:scale-110"
               >
                 <FaFacebookF />
               </a>
 
               <a
                 href={site.social.instagram}
-                className="rounded-full bg-teal-600 p-3 transition hover:scale-110"
+                className="rounded-full bg-pink-600 p-3 transition hover:scale-110"
               >
                 <FaInstagram />
               </a>
 
               <a
                 href={`https://wa.me/${site.whatsapp}`}
-                className="rounded-full bg-teal-600 p-3 transition hover:scale-110"
+                className="rounded-full bg-pink-600 p-3 transition hover:scale-110"
               >
                 <FaWhatsapp />
               </a>

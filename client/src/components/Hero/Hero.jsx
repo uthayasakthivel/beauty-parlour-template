@@ -31,7 +31,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mb-4 text-lg uppercase tracking-[8px] text-teal-300"
+            className="mb-4 text-lg uppercase tracking-[8px] text-pink-300"
           >
             {site.tagline} {/* ← Edit tagline in config/site.js */}
           </motion.p>
@@ -67,7 +67,7 @@ export default function Hero() {
             {/* Primary CTA — change path and label */}
             <Link
               to="/appointment"
-              className="rounded-full bg-teal-600 px-8 py-4 text-lg font-semibold transition hover:bg-teal-700"
+              className="rounded-full bg-pink-600 px-8 py-4 text-lg font-semibold transition hover:bg-pink-700"
             >
               Book Appointment
             </Link>
